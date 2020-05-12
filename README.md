@@ -2,8 +2,8 @@
 
 ## Ideen
 
-- Konsolenvariante (1. Step)
-- GUI/Browser (2. Step)
+- Konsolenvariante 
+- GUI/Browser 
 
 ## 1. Step
 * 32 Figuren
