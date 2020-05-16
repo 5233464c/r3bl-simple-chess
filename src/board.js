@@ -79,7 +79,8 @@ exports.Board = {
         7: true,
         8: true,
     },
-},
-function reset() {
-    // todo
-};
+}
+// function reset() {
+//     // todo
+// };
+

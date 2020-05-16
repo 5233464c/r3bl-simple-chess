@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/reneroboter/rbfl-simple-chess/issues"
   },
-  "homepage": "https://github.com/reneroboter/rbfl-simple-chess#readme"
+  "homepage": "https://github.com/reneroboter/rbfl-simple-chess#readme",
+  "dependencies": {}
 }
