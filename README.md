@@ -14,6 +14,9 @@
 * Das Spiel ist rundenbasiert
 
 
+## Projekt einrichtne
+* `git clone git@github.com:reneroboter/rbfl-simple-chess.git`
+* `nvm use` (optional)
 
-
-
+## Software
+* NVM (https://github.com/nvm-sh/nvm)
