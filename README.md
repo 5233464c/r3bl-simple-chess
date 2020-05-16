@@ -5,12 +5,12 @@
 - Konsolenvariante 
 - GUI/Browser 
 
-## 1. Step
+## Sprint 1
 * 32 Figuren ✔️
 * 1 Spielbrett mit 8x8 Feldern ✔️
 * Figuren können sich auf dem Spielfeld bewegen ✔️
 * 1 Spieler kann seine Figuren kontrollieren ✔️
-* 1 Spieler kann nur seine zugehörigen Figuren bewegen
+* 1 Spieler kann nur seine zugehörigen Figuren bewegen ✔️
 * Das Spiel ist rundenbasiert ✔️
 
 
