@@ -14,9 +14,10 @@
 * Das Spiel ist rundenbasiert ✔️
 
 
-## Projekt einrichtne
+## Projekt einrichten
 * `git clone git@github.com:reneroboter/rbfl-simple-chess.git`
 * `nvm use` (optional)
+* `npm install`
 * `node .`
 
 ## Software
