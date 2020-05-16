@@ -20,5 +20,7 @@
     "url": "https://github.com/reneroboter/rbfl-simple-chess/issues"
   },
   "homepage": "https://github.com/reneroboter/rbfl-simple-chess#readme",
-  "dependencies": {}
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
