@@ -1,0 +1,23 @@
+{
+  "name": "rbfl-simple-chess",
+  "version": "1.0.0",
+  "description": "Simple Chess",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reneroboter/rbfl-simple-chess.git"
+  },
+  "keywords": [
+    "chess",
+    "rbfl"
+  ],
+  "author": "RBFL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reneroboter/rbfl-simple-chess/issues"
+  },
+  "homepage": "https://github.com/reneroboter/rbfl-simple-chess#readme"
+}
