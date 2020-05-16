@@ -17,6 +17,7 @@
 ## Projekt einrichtne
 * `git clone git@github.com:reneroboter/rbfl-simple-chess.git`
 * `nvm use` (optional)
+* `node .`
 
 ## Software
 * NVM (https://github.com/nvm-sh/nvm)
