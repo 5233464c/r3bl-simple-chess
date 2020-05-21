@@ -20,7 +20,7 @@
 * * Position von Gegner können angenommen werden (Schlagen)
 * * Eine geschlagene Spielfigure wird aus dem Spiel genommen
 * CollisionDetection refactorn  ✔️
-* Spielsteuerung abstrahieren (... wir sind unglaublich faule Säcke)
+* Spielsteuerung abstrahieren (... wir sind unglaublich faule Säcke) ✔️
 * Bessere Darstellung des Spielfelds (optional)
 
 ## Backlog
