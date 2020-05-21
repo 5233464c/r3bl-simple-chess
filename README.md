@@ -19,7 +19,7 @@
 * Regelwerk
 * * Position von Gegner können angenommen werden (Schlagen)
 * * Eine geschlagene Spielfigure wird aus dem Spiel genommen
-* CollisionDetection refactorn
+* CollisionDetection refactorn  ✔️
 * Spielsteuerung abstrahieren (... wir sind unglaublich faule Säcke)
 * Bessere Darstellung des Spielfelds (optional)
 

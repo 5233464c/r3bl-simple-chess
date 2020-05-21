@@ -23,5 +23,6 @@
   "homepage": "https://github.com/reneroboter/rbfl-simple-chess#readme",
   "dependencies": {
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "devDependencies": {}
 }

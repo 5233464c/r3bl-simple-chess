@@ -35,7 +35,14 @@ while (loop) {
 
     moveFigureTo = prompt('Bewege Spielfigure nach: ')
     try {
-        collision.isValid(moveFigureTo, figure);
+        if(!collision.isValid(moveFigureTo)) {
+            throw new Error('InvalidMoveException');
+        }
+        board.Board[moveFigureTo[0]][moveFigureTo[1]] = true;
+        let oldPosition = figure.position;
+        figure.move(moveFigureTo);
+        board.Board[oldPosition[0]][oldPosition[1]] = false;
+        
     } catch (e) {
         console.error(e.name + ': ' + e.message)
         process.exit(0);
@@ -52,9 +59,16 @@ while (loop) {
         continue;
     }
 
-    moveFigureTo = prompt('Bewege Spielfigure nach: ')
+    moveFigureTo = prompt('Bewege Spielfigur nach: ')
     try {
-        collision.isValid(moveFigureTo, figure);
+        if(!collision.isValid(moveFigureTo)) {
+            throw new Error('InvalidMoveException');
+        }
+        board.Board[moveFigureTo[0]][moveFigureTo[1]] = true;
+        let oldPosition = figure.position;
+        figure.move(moveFigureTo);
+        board.Board[oldPosition[0]][oldPosition[1]] = false;
+
     } catch (e) {
         console.error(e.name + ': ' + e.message)
         process.exit(0);
