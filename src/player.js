@@ -1,5 +1,6 @@
 class Player {
-  constructor(figures) {
+  constructor(name, figures) {
+      this.name = name;
       this.figures = figures;
   }
   get(selected)  {
