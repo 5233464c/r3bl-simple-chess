@@ -11,5 +11,4 @@ class CollisionDetection {
 
 }
 
-
 module.exports = CollisionDetection

@@ -30,3 +30,19 @@
 
 ## Software
 * NVM (https://github.com/nvm-sh/nvm)
+
+## Spiefeld Skizze
+
+f  f  f  f  f  f  f  f
+f  f  f  f  f  f  f  f
+.  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .
+.  .  .  .  .  .  .  .
+f  f  f  f  f  f  f  f
+f  f  f  f  f  f  f  f
+
+
+view(Board board) {
+    // the magic happen ... 
+}
