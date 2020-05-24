@@ -4,13 +4,24 @@ class Player {
       this.figures = figures;
   }
   get(selected)  {
-    if (this.figures.f1.position == selected) {
-        return this.figures.f1;
-    }
-    if (this.figures.f2.position == selected) {
-        return this.figures.f2;
+    const figures = Object.keys(this.figures);
+    for (let figure of figures) {
+      if (this.figures[figure].position ===selected) {
+        return this.figures[figure];
+      }
     }
  
+    throw new Error('InvalidSelectedFigureException')
+  }
+  delete(selected) {
+    const figures = Object.keys(this.figures);
+    for (let figure of figures) {
+      if (this.figures[figure].position === selected) {
+        delete this.figures[figure];
+        return; // todo why does break not work?!
+      }
+    }
+
     throw new Error('InvalidSelectedFigureException')
   }
 }

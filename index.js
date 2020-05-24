@@ -10,7 +10,7 @@ let player1 = players.player1;
 let player2 = players.player2;
 
 let view = new ConsoleView()
-let controller = new FrontController(board, view);
+let controller = new FrontController(board, view, players);
 
 let stop = 0
 
