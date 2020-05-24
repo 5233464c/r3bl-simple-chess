@@ -1,18 +1,16 @@
-let Figure = require("./src/figure.js");
-let Player = require("./src/player.js");
-let InputController = require("./src/control.js");
-let ConsoleView = require("./src/console-view");
-let board = require("./src/board.js");
+let FrontController = require("./src/controller/front.js");
+let ConsoleView = require("./src/view/console.js");
+let board = require("./src/model/board.js");
+const players = require("./src/factory/players.js");
 
-console.log('RBFL SIMPLE CHESS');
 
 let loop = true
 
-let player1 = new Player('René', {f1: new Figure('a1'), f2: new Figure('a2')})
-let player2 = new Player('Felix', {f1: new Figure('a7'), f2: new Figure('a8')})
+let player1 = players.player1;
+let player2 = players.player2;
 
 let view = new ConsoleView()
-let controller = new InputController(board, view);
+let controller = new FrontController(board, view);
 
 let stop = 0
 
@@ -28,6 +26,3 @@ while (loop) {
         console.error(e.name + ': ' + e.message)
     }
 }
-
-
-
