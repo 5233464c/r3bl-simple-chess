@@ -1,11 +1,11 @@
 let prompt = require('prompt-sync')();
-let CollisionDetection = require("./collision.js");
+let CollisionDetection = require("../collision.js");
 
 let selectedFigure = null;
 let moveToPosition = null;
 
 
-class InputController {
+class FrontController {
     constructor(board, view) {
         this.board = board
         this.view = view
@@ -35,4 +35,4 @@ class InputController {
     }
 }
 
-module.exports = InputController
+module.exports = FrontController
