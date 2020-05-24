@@ -1,8 +1,8 @@
-let Figure = require("./src/figure.js");
-let Player = require("./src/player.js");
-let InputController = require("./src/control.js");
-let ConsoleView = require("./src/console-view");
-let board = require("./src/board.js");
+let Figure = require("./src/model/figure.js");
+let Player = require("./src/model/player.js");
+let InputController = require("./src/controller/front.js");
+let ConsoleView = require("./src/view/console.js");
+let board = require("./src/model/board.js");
 
 console.log('RBFL SIMPLE CHESS');
 
