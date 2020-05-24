@@ -1,34 +1,32 @@
-# RBFL SIMPLE CHESS
+# ♟️ RBFL SIMPLE CHESS ♟️
 
-## Projekt einrichten
-* `git clone git@github.com:reneroboter/rbfl-simple-chess.git`
+## Setup project
+* `git clone git@github.com:5233464c/r3bl-simple-chess.git`
 * `nvm use` (optional)
 * `npm install`
 * `node .`
 
 ## Sprint 1
-* 32 Figuren ✔️
-* 1 Spielbrett mit 8x8 Feldern ✔️
-* Figuren können sich auf dem Spielfeld bewegen ✔️
-* 1 Spieler kann seine Figuren kontrollieren ✔️
-* 1 Spieler kann nur seine zugehörigen Figuren bewegen ✔️
-* Das Spiel ist rundenbasiert ✔️
+* 32 Figures ✔️
+* One Board with 8x8 fields ✔️
+* Figures can move across the board ✔️
+* One player can move figures ✔️
+* One player can only move his figures ✔️
+* The game is based on rounds ✔️
 
 ## Sprint 2
-* CollisionDetection refactorn  ✔️
-* Spielsteuerung abstrahieren (... wir sind unglaublich faule Säcke) ✔️
-* Eine Darstellung des Spielfelds (optional) ✔️
-* Pro Spieler kann ich 16 Figuren bewegen ✔️
-* Regelwerk
-* * Position von Gegner können angenommen werden (Schlagen)
-* * Eine geschlagene Spielfigure wird aus dem Spiel genommen
-* Ordnerstruktur festlegen(controller, view) ✔️
+* CollisionDetection refactor  ✔️
+* Implement Gamecontroller ✔️
+* Simple GUI on the console ✔️
+* Every player has 16 figures he can move ✔️
+* Restructure files(controller, view) ✔️
+* Rulebook
+* * Figure can be captured and moved to enemy position.
+* * A captured figure will be removed from the game
 
 ## Backlog
-* Mehr Information im Board Objekt(Welche Figur)
-* Historie der gemachten Spielzüge
-* Spieler können beim Start einen Namen wählen
-* AUF ENGLISH ALLES!
+* More information in board object(Which figure)
+* Player can choose a name at the beginning
 * PlayerFactory() ... 
 * Typescript
 * Testing with Jest
@@ -38,14 +36,3 @@
 
 ## Software
 * NVM (https://github.com/nvm-sh/nvm)
-
-## Spiefeld Skizze
-
-f  f  f  f  f  f  f  f
-f  f  f  f  f  f  f  f
-.  .  .  .  .  .  .  .
-.  .  .  .  .  .  .  .
-.  .  .  .  .  .  .  .
-.  .  .  .  .  .  .  .
-f  f  f  f  f  f  f  f
-f  f  f  f  f  f  f  f

@@ -13,12 +13,12 @@ class FrontController {
 
     move(player) {
         let collision = new CollisionDetection(this.board);
-        console.log("Spieler " + player.name + ": ")
+        console.log("Player " + player.name + ": ")
 
-        selectedFigure = prompt('Spielfigur? ');
+        selectedFigure = prompt('Select figure: ');
         let figure = player.get(selectedFigure);
 
-        moveToPosition = prompt('Bewege Spielfigure nach: ')
+        moveToPosition = prompt('Move figure to: ')
 
         if (!collision.isValid(moveToPosition)) {
             throw new Error('InvalidMoveException');
