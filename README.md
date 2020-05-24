@@ -21,18 +21,21 @@
 * Every player has 16 figures he can move ✔️
 * Restructure files(controller, view) ✔️
 * Rulebook
-* * Figure can be captured and moved to enemy position.
-* * A captured figure will be removed from the game
+* * Figure can be captured and moved to enemy position. ✔️
+* * A captured figure will be removed from the game ✔️
+
+## Sprint 3
+* Implement Typescript
+* Unittesting with Jest
 
 ## Backlog
 * More information in board object(Which figure)
 * Player can choose a name at the beginning
-* PlayerFactory() ... 
-* Typescript
-* Testing with Jest
+* PlayerFactory()  
 * Debugging
 * Chess History
 * Telegram Bot 
+* Rulebook: Chess rules 
 
 ## Software
 * NVM (https://github.com/nvm-sh/nvm)
