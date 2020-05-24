@@ -15,17 +15,20 @@
 * Das Spiel ist rundenbasiert ✔️
 
 ## Sprint 2
+* CollisionDetection refactorn  ✔️
+* Spielsteuerung abstrahieren (... wir sind unglaublich faule Säcke) ✔️
+* Eine Darstellung des Spielfelds (optional) ✔️
 * Pro Spieler kann ich 16 Figuren bewegen
 * Regelwerk
 * * Position von Gegner können angenommen werden (Schlagen)
 * * Eine geschlagene Spielfigure wird aus dem Spiel genommen
-* CollisionDetection refactorn  ✔️
-* Spielsteuerung abstrahieren (... wir sind unglaublich faule Säcke) ✔️
-* Bessere Darstellung des Spielfelds (optional)
+* Ordnerstruktur festlegen(controller, view)
 
 ## Backlog
 * Mehr Information im Board Objekt(Welche Figur)
 * Historie der gemachten Spielzüge
+* Spieler können beim Start einen Namen wählen
+* AUF ENGLISH ALLES!
 * ...
 
 ## Software
