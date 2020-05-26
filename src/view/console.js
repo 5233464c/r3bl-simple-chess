@@ -1,20 +1,22 @@
 class ConsoleView {
     view(board) {
 
-        let rowOutput = ''
+        let chessboard = ''
         for (let [key, row] of Object.entries(board)) {
-
+            chessboard += key + ' ';
             for (let [key, field] of Object.entries(row)) {
                 if (field) {
-                    rowOutput += '\u2654 ';
+                    chessboard += '\u2654 ';
                 } else {
-                    rowOutput += '\u25a1 ';
+                    chessboard += '\u25a1 ';
                 }
-
             }
-            rowOutput += '\n';
+            chessboard += '\n';
+            if(key == 8) {
+                chessboard += '  a b c d e f g h';
+            }
         }
-        return rowOutput;
+        return chessboard;
     }
 }
 
