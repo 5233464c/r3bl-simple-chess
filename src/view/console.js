@@ -1,7 +1,7 @@
 class ConsoleView {
     view(board) {
 
-        let chessboard = ''
+        let chessboard = '  a b c d e f g h\n'
         for (let [key, row] of Object.entries(board)) {
             chessboard += key + ' ';
             for (let [key, field] of Object.entries(row)) {
@@ -11,7 +11,7 @@ class ConsoleView {
                     chessboard += '\u25a1 ';
                 }
             }
-            chessboard += '\n';
+            chessboard += key + '\n';
             if(key == 8) {
                 chessboard += '  a b c d e f g h';
             }
