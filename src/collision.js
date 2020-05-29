@@ -3,6 +3,11 @@ class CollisionDetection {
         this.board = board.Board;
     }
     isValid(position) {
+
+        if(position.length > 2) {
+            return false;
+        }
+
         if (this.board[position[1]][position[0]] !== 'undefiend') {
             return true;
         }
