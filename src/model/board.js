@@ -80,7 +80,3 @@ exports.Board = {
         h: true,
     },
 }
-// function reset() {
-//     // todo
-// };
-

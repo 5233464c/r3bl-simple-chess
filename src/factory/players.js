@@ -2,7 +2,7 @@
 const Figure = require('../model/figure.js')
 const Player = require('../model/player.js')
 
-let player1Figures = {
+const player1Figures = {
     f1: new Figure('a1'), 
     f2: new Figure('a2'),
     f3: new Figure('b1'),
@@ -20,7 +20,7 @@ let player1Figures = {
     f15: new Figure('h1'),
     f16: new Figure('h2'),
 };
-let player2Figures = {
+const player2Figures = {
     f1: new Figure('a8'), 
     f2: new Figure('a7'),
     f3: new Figure('b8'),
@@ -38,8 +38,9 @@ let player2Figures = {
     f15: new Figure('h8'),
     f16: new Figure('h8'),
 };
-let player1 = new Player('René', player1Figures)
-let player2 = new Player('Felix', player2Figures)
+
+const player1 = new Player('René', player1Figures)
+const player2 = new Player('Felix', player2Figures)
 
 module.exports = {
     player1: player1,
